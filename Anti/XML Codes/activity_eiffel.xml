@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0C2622">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:src="@drawable/et"
+                android:scaleType="centerCrop"
+                android:background="@drawable/rounded_corners"
+                android:clipToOutline="true"
+                android:layout_marginBottom="16dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Eiffel Tower"
+                android:textColor="#FFFFFF"
+                android:textSize="26sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="📍 Paris, France"
+                android:textColor="#D5D5D5"
+                android:textSize="16sp"
+                android:layout_marginBottom="16dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The Eiffel Tower, or La Tour Eiffel, is an iconic iron lattice structure located on the Champ de Mars in Paris, France. Completed in 1889 for the Exposition Universelle (World’s Fair) to celebrate the 100th anniversary of the French Revolution, it was designed by the engineer Gustave Eiffel and initially met with criticism from artists and intellectuals. Today, it stands as a global symbol of innovation, romance, and the enduring spirit of France.
+\n\nRising 330 meters (1,083 feet) high, the tower was the world’s tallest man-made structure until the completion of the Chrysler Building in New York in 1930. It consists of over 18,000 iron pieces held together by 2.5 million rivets, showcasing remarkable 19th-century engineering precision. The structure weighs around 10,100 tons yet appears light and airy due to its lattice design.
+\n\nThe tower has three public levels — restaurants and shops on the first two floors, and a breathtaking observation deck on the third, offering panoramic views of Paris and landmarks like the Seine River, Notre-Dame, and the Louvre. Illuminated by more than 20,000 sparkling lights each evening, it transforms the Parisian skyline into a vision of beauty and wonder.
+\n\nOriginally intended to be dismantled after 20 years, the Eiffel Tower survived due to its usefulness as a radio transmission tower. Today, it welcomes over 7 million visitors annually and continues to embody the elegance, artistry, and technological brilliance that define French culture."
+                android:textColor="#CFCFCF"
+                android:textSize="15sp"
+                android:lineSpacingExtra="4dp"
+                android:layout_marginBottom="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gallery"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="12dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="20dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/e_a"
+                    android:scaleType="centerCrop"
+                    android:background="@drawable/rounded_corners"
+                    android:clipToOutline="true"
+                    android:layout_marginBottom="12dp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/e_nb"
+                    android:scaleType="centerCrop"
+                    android:background="@drawable/rounded_corners"
+                    android:clipToOutline="true"
+                    android:layout_marginBottom="12dp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/e_c"
+                    android:scaleType="centerCrop"
+                    android:background="@drawable/rounded_corners"
+                    android:clipToOutline="true"
+                    android:layout_marginBottom="12dp" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="History"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Designed by Gustave Eiffel, the tower was initially met with criticism from artists and intellectuals of the time. However, it soon became a technological marvel, representing France’s industrial strength and modern engineering. It remained the tallest structure in the world until 1930."
+                android:textColor="#CFCFCF"
+                android:textSize="15sp"
+                android:layout_marginBottom="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Architecture"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Made of wrought iron, the Eiffel Tower weighs around 10,100 tons and consists of over 18,000 metal parts connected by 2.5 million rivets. Its lattice design provides both strength and elegance, making it an engineering masterpiece of the 19th century."
+                android:textColor="#CFCFCF"
+                android:textSize="15sp"
+                android:layout_marginBottom="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Visiting Information"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Open: 9:30 AM – 11:45 PM\n• Ticket: €12–€26 depending on level\n• Best Time: Evening for night lights\n• Tip: Book tickets online to skip the long queues!"
+                android:textColor="#CFCFCF"
+                android:textSize="15sp"
+                android:layout_marginBottom="80dp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btn_360_view_eiffel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_margin="16dp"
+        app:backgroundTint="#E8D17E"
+        android:src="@drawable/location"
+        android:contentDescription="360 View" />
+
+</FrameLayout>

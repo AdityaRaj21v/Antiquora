@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0C2622">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:src="@drawable/a"
+                android:scaleType="centerCrop"
+                android:background="@drawable/rounded_corners"
+                android:clipToOutline="true"
+                android:layout_marginBottom="16dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Angkor Wat"
+                android:textColor="#FFFFFF"
+                android:textSize="26sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="📍 Siem Reap, Cambodia"
+                android:textColor="#D5D5D5"
+                android:textSize="16sp"
+                android:layout_marginBottom="16dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Angkor Wat, located in Siem Reap, Cambodia, is the largest religious monument in the world and the crown jewel of Khmer architecture. Constructed in the early 12th century during the reign of King Suryavarman II, it was originally dedicated to the Hindu god Vishnu before gradually transforming into a Buddhist temple, reflecting Cambodia’s spiritual evolution over time.
+\n\nThe temple complex, surrounded by an immense moat and an impressive 3.6-kilometer outer wall, symbolizes Mount Meru—the home of the gods in Hindu mythology. Its five soaring towers represent the peaks of this sacred mountain, while its galleries are adorned with over 3,000 exquisite bas-reliefs depicting scenes from Hindu epics such as the Ramayana and Mahabharata.
+\n\nAngkor Wat’s design showcases perfect symmetry, balance, and harmony, with intricate carvings, lotus-bud towers, and corridors aligned precisely with the sunrise during equinoxes. The temple’s sandstone blocks, transported from quarries miles away, exhibit an unmatched level of craftsmanship and devotion.
+\n\nToday, Angkor Wat stands as a symbol of Cambodia’s national pride and identity, appearing on its national flag and drawing millions of visitors each year who come to witness its spiritual serenity, architectural genius, and breathtaking sunrises over the lotus-shaped towers."
+                android:textColor="#CFCFCF"
+                android:textSize="15sp"
+                android:lineSpacingExtra="4dp"
+                android:layout_marginBottom="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gallery"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="12dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="20dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/an_a"
+                    android:scaleType="centerCrop"
+                    android:background="@drawable/rounded_corners"
+                    android:clipToOutline="true"
+                    android:layout_marginBottom="12dp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/an_b"
+                    android:scaleType="centerCrop"
+                    android:background="@drawable/rounded_corners"
+                    android:clipToOutline="true"
+                    android:layout_marginBottom="12dp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/an_c"
+                    android:scaleType="centerCrop"
+                    android:background="@drawable/rounded_corners"
+                    android:clipToOutline="true"
+                    android:layout_marginBottom="12dp" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="History"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Angkor Wat was constructed in the early 12th century during the reign of King Suryavarman II. It was initially dedicated to Vishnu, reflecting the Hindu cosmology. By the end of the 12th century, it gradually transformed into a Buddhist site. Over centuries, it remained remarkably preserved, symbolizing Cambodia’s national pride and cultural identity."
+                android:textColor="#CFCFCF"
+                android:textSize="15sp"
+                android:layout_marginBottom="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Architecture"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Built using sandstone blocks, Angkor Wat is a prime example of Khmer architecture, representing Mount Meru — the home of the gods in Hindu mythology. The temple’s five towers symbolize the mountain’s peaks, while the outer walls and moats represent the cosmic ocean. The intricate carvings depict stories from Hindu epics and scenes of daily life."
+                android:textColor="#CFCFCF"
+                android:textSize="15sp"
+                android:layout_marginBottom="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Visiting Information"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Open: 5:00 AM – 5:30 PM\n• Entry Fee: $37 (1-day pass)\n• Best Time: Sunrise or Sunset\n• Tip: Visit early morning for breathtaking views and fewer crowds."
+                android:textColor="#CFCFCF"
+                android:textSize="15sp"
+                android:layout_marginBottom="80dp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btn_360_view_angkor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_margin="16dp"
+        app:backgroundTint="#E8D17E"
+        android:src="@drawable/location"
+        android:contentDescription="360 View" />
+</FrameLayout>

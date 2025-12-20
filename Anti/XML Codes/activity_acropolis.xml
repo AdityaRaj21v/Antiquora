@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0C2622">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:src="@drawable/aoa"
+                android:scaleType="centerCrop"
+                android:background="@drawable/rounded_corners"
+                android:clipToOutline="true"
+                android:layout_marginBottom="16dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Acropolis of Athens"
+                android:textColor="#FFFFFF"
+                android:textSize="26sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="📍 Athens, Greece"
+                android:textColor="#D5D5D5"
+                android:textSize="16sp"
+                android:layout_marginBottom="16dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The Acropolis of Athens, one of the most iconic landmarks of ancient Greece, stands majestically atop a rocky hill overlooking the modern city of Athens. This ancient citadel was the spiritual and cultural heart of classical Greece, symbolizing the glory, philosophy, and artistic excellence of the Athenian civilization.
+\n\nConstructed during the 5th century BCE under the leadership of Pericles, the Acropolis houses several architectural masterpieces, the most celebrated being the Parthenon — a temple dedicated to the goddess Athena, the patron deity of the city. The Parthenon exemplifies the ideals of harmony and proportion that define classical Greek architecture, with its Doric columns and intricate sculptures crafted by the sculptor Phidias.
+\n\nOther notable structures within the Acropolis complex include the Erechtheion, famed for its graceful Caryatids — sculpted female figures serving as architectural supports — and the Temple of Athena Nike, celebrating victory and divine protection.
+\n\nBeyond its architectural brilliance, the Acropolis stands as a powerful symbol of democracy, human achievement, and the enduring pursuit of knowledge and beauty. Today, it continues to inspire awe and reverence as a UNESCO World Heritage Site and a lasting testament to the cultural achievements of ancient Greece."
+                android:textColor="#CFCFCF"
+                android:textSize="15sp"
+                android:lineSpacingExtra="4dp"
+                android:layout_marginBottom="20dp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gallery"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="12dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="20dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/a_a"
+                    android:scaleType="centerCrop"
+                    android:background="@drawable/rounded_corners"
+
+                    android:clipToOutline="true"
+                    android:layout_marginBottom="12dp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/a_b"
+                    android:scaleType="centerCrop"
+                    android:background="@drawable/rounded_corners"
+                    android:clipToOutline="true"
+                    android:layout_marginBottom="12dp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/a_c"
+                    android:scaleType="centerCrop"
+                    android:background="@drawable/rounded_corners"
+                    android:clipToOutline="true"
+                    android:layout_marginBottom="12dp" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="History"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The Acropolis has been inhabited since prehistoric times. During the 5th century BC, under the leadership of Pericles, it became the center of Athenian art and culture. The Parthenon and other monuments symbolize the glory of ancient Greece and Western civilization."
+                android:textColor="#CFCFCF"
+                android:textSize="15sp"
+                android:layout_marginBottom="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Architecture"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Constructed using marble from Mount Pentelicus, the Acropolis structures showcase the perfection of Doric and Ionic architectural styles. The Parthenon, Erechtheion, and Propylaea highlight balance, proportion, and harmony."
+                android:textColor="#CFCFCF"
+                android:textSize="15sp"
+                android:layout_marginBottom="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Visiting Information"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Open: 8:00 AM – 8:00 PM\n• Entry Fee: €20 (April–October), €10 (November–March)\n• Best Time: Spring or Early Autumn\n• Tip: Visit early morning for cooler weather and fewer crowds."
+                android:textColor="#CFCFCF"
+                android:textSize="15sp"
+                android:layout_marginBottom="80dp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btn_360_view_acropolis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_margin="16dp"
+        app:backgroundTint="#E8D17E"
+        android:src="@drawable/location"
+        android:contentDescription="360 View" />
+</FrameLayout>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/p1"
+    android:padding="20dp">
+
+    <ImageView
+        android:id="@+id/appLogo"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:contentDescription="Antiquora Logo"
+        android:src="@drawable/l1" />
+
+    <LinearLayout
+        android:id="@+id/feedbackContainer"
+        android:layout_width="332dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/appLogo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/paper"
+        android:elevation="10dp"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:id="@+id/titleText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FEEDBACK"
+            android:textAlignment="center"
+            android:textColor="#1D1C1B"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:fontFamily="serif"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:id="@+id/descText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="We value your feedback! Please share your thoughts or suggestions below."
+            android:textColor="#3B2E1C"
+            android:textSize="14sp"
+            android:fontFamily="serif"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/nameInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Your Name"
+            android:background="@android:color/transparent"
+            android:textColor="#1D1C1B"
+            android:textColorHint="#7B6B5A"
+            android:padding="8dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="serif"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/emailInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Your Email"
+            android:background="@android:color/transparent"
+            android:textColor="#1D1C1B"
+            android:textColorHint="#7B6B5A"
+            android:padding="8dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="serif"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/feedbackInput"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:hint="Write your feedback here..."
+            android:background="@android:color/transparent"
+            android:textColor="#1D1C1B"
+            android:textColorHint="#7B6B5A"
+            android:gravity="top"
+            android:padding="8dp"
+            android:fontFamily="serif"
+            android:inputType="textMultiLine" />
+
+        <Button
+            android:id="@+id/submitBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#3B2E1C"
+            android:layout_marginTop="16dp"
+            android:fontFamily="serif" />
+    </LinearLayout>
+
+</RelativeLayout>

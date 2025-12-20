@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/p1"
+    android:padding="19dp">
+
+    <ImageView
+        android:id="@+id/appLogo"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:contentDescription="Antiquora Logo"
+        android:src="@drawable/l1" />
+
+    <LinearLayout
+        android:id="@+id/scrollContainer"
+        android:layout_width="340dp"
+        android:layout_height="430dp"
+        android:layout_below="@id/appLogo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/paper"
+        android:elevation="10dp"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:id="@+id/titleText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:fontFamily="serif"
+            android:text="TERMS AND CONDITIONS"
+            android:textAlignment="center"
+            android:textColor="#1D1C1B"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/termsText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:lineSpacingExtra="6dp"
+                android:padding="4dp"
+                android:textColor="#3B2E1C"
+                android:textSize="14sp"
+                android:text="Welcome to Antiquora! By using this application, you agree to the following terms...\n\n1. Acceptance of Terms: Your access and use of this Service is conditioned upon your acceptance of and compliance with these Terms.\n\n2. Usage: These Terms apply to all users, visitors, and others who wish to access or use the Service.\n\n3. Modifications: We reserve the right to change or replace these Terms at any time without prior notice.\n\nThank you for exploring Antiquora!" />
+        </ScrollView>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0C2622">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:src="@drawable/chi"
+                android:scaleType="centerCrop"
+                android:background="@drawable/rounded_corners"
+                android:clipToOutline="true"
+                android:layout_marginBottom="16dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chichen Itza"
+                android:textColor="#FFFFFF"
+                android:textSize="26sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="📍 Yucatán, Mexico"
+                android:textColor="#D5D5D5"
+                android:textSize="16sp"
+                android:layout_marginBottom="16dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chichen Itza, located in Mexico’s Yucatán Peninsula, was one of the greatest cities of the ancient Maya civilization, flourishing between the 9th and 12th centuries CE. Recognized today as one of the New Seven Wonders of the World, it served as a major political, economic, and religious center that reflected the brilliance of Mayan astronomy and architecture.
+\n\nAt the heart of Chichen Itza stands El Castillo, or the Temple of Kukulkan, a massive step pyramid that functioned as both a temple and a solar calendar. Each of its four sides has 91 steps, which, when combined with the top platform, total 365—symbolizing the days of the solar year. During the spring and autumn equinoxes, sunlight and shadow create the illusion of a serpent slithering down the staircase, representing the feathered serpent deity Kukulkan.
+\n\nThe city also features remarkable structures such as the Great Ball Court—the largest in Mesoamerica—where sacred games were played, the Temple of the Warriors adorned with columns depicting ancient soldiers, and the Sacred Cenote, a deep sinkhole used for offerings and rituals to appease the gods.
+\n\nChichen Itza’s precise alignment with celestial events and its fusion of Toltec and Mayan artistic influences demonstrate the advanced scientific understanding and cultural richness of its people. Today, it remains a UNESCO World Heritage Site and a profound symbol of Mexico’s ancient heritage and ingenuity."
+                android:textColor="#CFCFCF"
+                android:textSize="15sp"
+                android:lineSpacingExtra="4dp"
+                android:layout_marginBottom="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gallery"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="12dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="20dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/ci_a"
+                    android:scaleType="centerCrop"
+                    android:background="@drawable/rounded_corners"
+                    android:clipToOutline="true"
+                    android:layout_marginBottom="12dp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/ci_b"
+                    android:scaleType="centerCrop"
+                    android:background="@drawable/rounded_corners"
+                    android:clipToOutline="true"
+                    android:layout_marginBottom="12dp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/ci_c"
+                    android:scaleType="centerCrop"
+                    android:background="@drawable/rounded_corners"
+                    android:clipToOutline="true"
+                    android:layout_marginBottom="12dp" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="History"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chichen Itza thrived between 600 and 1200 AD and became one of the largest Maya cities. It was a hub for politics, religion, and trade. After the Spanish conquest, the site was abandoned but remained sacred to the Maya people."
+                android:textColor="#CFCFCF"
+                android:textSize="15sp"
+                android:layout_marginBottom="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Architecture"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The Temple of Kukulkan is the most iconic structure — a step pyramid with 365 steps, symbolizing the solar year. During the spring and autumn equinoxes, sunlight creates the illusion of a serpent slithering down the pyramid’s staircase, showcasing the Mayans’ precise astronomical alignment."
+                android:textColor="#CFCFCF"
+                android:textSize="15sp"
+                android:layout_marginBottom="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Visiting Information"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Open: 8:00 AM – 5:00 PM daily\n• Entry Fee: ~500 MXN (includes local tax)\n• Best Time: Early morning or late afternoon\n• Tip: Visit during the spring or autumn equinox to witness the serpent-shadow phenomenon."
+                android:textColor="#CFCFCF"
+                android:textSize="15sp"
+                android:layout_marginBottom="80dp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btn_360_view_chichen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_margin="16dp"
+        app:backgroundTint="#E8D17E"
+        android:src="@drawable/location"
+        android:contentDescription="360 View" />
+</FrameLayout>

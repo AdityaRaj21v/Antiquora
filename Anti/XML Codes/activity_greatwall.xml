@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0C2622">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:src="@drawable/gc"
+                android:scaleType="centerCrop"
+                android:background="@drawable/rounded_corners"
+                android:clipToOutline="true"
+                android:layout_marginBottom="16dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Great Wall of China"
+                android:textColor="#FFFFFF"
+                android:textSize="26sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="📍 China"
+                android:textColor="#D5D5D5"
+                android:textSize="16sp"
+                android:layout_marginBottom="16dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The Great Wall of China, a UNESCO World Heritage Site, is one of the most extraordinary architectural achievements in human history. Stretching over 21,000 kilometers (13,000 miles) across mountains, deserts, and plains, it was originally built to protect Chinese states and empires from nomadic invasions and raids from the north. Construction began as early as the 7th century BCE, with most of the existing wall built during the Ming Dynasty (1368–1644 CE).
+\n\nThe wall is not a single continuous structure, but rather a series of overlapping walls, fortresses, watchtowers, and beacon stations interconnected to create a vast defensive network. Built from a combination of tamped earth, bricks, and stone, its design showcases the ingenuity and resilience of ancient Chinese engineering. The average height is around 7–8 meters, with watchtowers reaching even higher for surveillance and communication using smoke signals and lanterns.
+\n\nBeyond its military function, the Great Wall also served as a border control point for trade along the Silk Road, facilitating taxation and cultural exchange between China and neighboring civilizations. It symbolized both physical protection and the strength of China’s unified empire.
+\n\nToday, the Great Wall stands as a timeless emblem of perseverance, human ingenuity, and national pride. From the majestic sections of Badaling and Mutianyu near Beijing to the rugged, unrestored stretches in the Gobi Desert, it continues to captivate millions of visitors who walk its ancient stones and marvel at its enduring legacy."
+                android:textColor="#CFCFCF"
+                android:textSize="15sp"
+                android:lineSpacingExtra="4dp"
+                android:layout_marginBottom="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gallery"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="12dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="20dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/g_a"
+                    android:scaleType="centerCrop"
+                    android:background="@drawable/rounded_corners"
+                    android:clipToOutline="true"
+                    android:layout_marginBottom="12dp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/g_b"
+                    android:scaleType="centerCrop"
+                    android:background="@drawable/rounded_corners"
+                    android:clipToOutline="true"
+                    android:layout_marginBottom="12dp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/g_c"
+                    android:scaleType="centerCrop"
+                    android:background="@drawable/rounded_corners"
+                    android:clipToOutline="true"
+                    android:layout_marginBottom="12dp" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="History"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Construction of the Great Wall began in the 7th century BC and continued for centuries under various dynasties, most notably the Qin and Ming. Originally built to defend against northern invaders, the wall also served as a means of border control and cultural exchange."
+                android:textColor="#CFCFCF"
+                android:textSize="15sp"
+                android:layout_marginBottom="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Architecture"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Built primarily from stone, brick, tamped earth, and wood, the wall follows the natural contours of mountains and valleys. Watchtowers and fortresses were strategically placed for defense and communication across vast distances."
+                android:textColor="#CFCFCF"
+                android:textSize="15sp"
+                android:layout_marginBottom="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Visiting Information"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Open: 7:30 AM – 5:30 PM\n• Entry Fee: ¥40 – ¥60 (varies by section)\n• Best Time: April – June, September – November\n• Nearest City: Beijing (Badaling and Mutianyu sections are most popular)"
+                android:textColor="#CFCFCF"
+                android:textSize="15sp"
+                android:layout_marginBottom="80dp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btn_360_view_greatwall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_margin="16dp"
+        app:backgroundTint="#E8D17E"
+        android:src="@drawable/location"
+        android:contentDescription="360 View" />
+
+</FrameLayout>

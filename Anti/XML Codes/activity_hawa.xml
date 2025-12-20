@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0C2622">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:src="@drawable/hawa"
+                android:scaleType="centerCrop"
+                android:background="@drawable/rounded_corners"
+                android:clipToOutline="true"
+                android:layout_marginBottom="16dp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hawa Mahal"
+                android:textColor="#FFFFFF"
+                android:textSize="26sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="📍 Jaipur, India"
+                android:textColor="#D5D5D5"
+                android:textSize="16sp"
+                android:layout_marginBottom="16dp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The Hawa Mahal, or 'Palace of Winds', stands as one of the most enchanting architectural marvels in Jaipur, Rajasthan. Constructed in 1799 by Maharaja Sawai Pratap Singh and designed by architect Lal Chand Ustad, this five-story pink sandstone masterpiece is a stunning example of Rajput artistry infused with Mughal elegance.
+\n\nIts distinctive façade, resembling a honeycomb crown, features 953 intricately carved jharokhas (small lattice windows) that allowed royal women of the palace to observe street festivals and daily city life in privacy, following the customs of the purdah system. The design also ensured natural ventilation, keeping the palace cool even during the intense Rajasthani summers—a remarkable early example of sustainable architecture.
+\n\nThe palace’s exterior glows beautifully under sunlight, earning Jaipur the nickname 'The Pink City'. Each floor has a unique layout—the top three levels are single rooms with minimal thickness, while the lower floors contain spacious courtyards and passages connecting to the City Palace complex. The structure’s delicate filigree work, domed canopies, and floral patterns embody the fusion of Hindu Rajput and Islamic Mughal architectural styles.
+\n\nHawa Mahal not only represents royal grace and architectural brilliance but also reflects the cultural sophistication of 18th-century Rajasthan. Today, it remains one of India’s most photographed landmarks and a symbol of Jaipur’s royal heritage, offering panoramic views of the bustling Johari Bazaar and the majestic City Palace."
+                android:textColor="#CFCFCF"
+                android:textSize="15sp"
+                android:lineSpacingExtra="4dp"
+                android:layout_marginBottom="20dp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gallery"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="12dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="20dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/h_a"
+                    android:scaleType="centerCrop"
+                    android:background="@drawable/rounded_corners"
+                    android:clipToOutline="true"
+                    android:layout_marginBottom="12dp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/h_b"
+                    android:scaleType="centerCrop"
+                    android:background="@drawable/rounded_corners"
+                    android:clipToOutline="true"
+                    android:layout_marginBottom="12dp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/h_c"
+                    android:scaleType="centerCrop"
+                    android:background="@drawable/rounded_corners"
+                    android:clipToOutline="true"
+                    android:layout_marginBottom="12dp" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="History"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Constructed during the reign of Maharaja Sawai Pratap Singh, the Hawa Mahal was part of the City Palace complex. Inspired by the Khetri Mahal in Jhunjhunu, it reflects the fusion of Rajput and Mughal architectural styles. The palace was primarily built for the royal women of the Zenana to view street processions and everyday life unseen by the public eye."
+                android:textColor="#CFCFCF"
+                android:textSize="15sp"
+                android:layout_marginBottom="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Architecture"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hawa Mahal is constructed with red and pink sandstone, blending seamlessly with Jaipur’s 'Pink City' aesthetic. Despite its height, the structure has no foundation and remains stable due to its curved shape. The intricate latticework ensures ventilation, keeping the interiors cool even during Rajasthan’s scorching summers."
+                android:textColor="#CFCFCF"
+                android:textSize="15sp"
+                android:layout_marginBottom="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Visiting Information"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Open: 9:00 AM – 4:30 PM daily\n• Entry Fee: ₹50 (Indians), ₹200 (Foreigners)\n• Best Time: October – March\n• Tip: Visit early morning for beautiful sunlight on the pink façade."
+                android:textColor="#CFCFCF"
+                android:textSize="15sp"
+                android:layout_marginBottom="80dp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btn_360_view_hawa_mahal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_margin="16dp"
+        app:backgroundTint="#E8D17E"
+        android:src="@drawable/location"
+        android:contentDescription="360 View" />
+</FrameLayout>

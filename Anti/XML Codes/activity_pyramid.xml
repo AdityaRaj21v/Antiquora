@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0C2622">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/pyramidImage"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:src="@drawable/py"
+                android:scaleType="centerCrop"
+                android:background="@drawable/rounded_corners"
+                android:clipToOutline="true"
+                android:layout_marginBottom="16dp" />
+
+            <TextView
+                android:id="@+id/pyramidTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Great Pyramid of Giza"
+                android:textColor="#FFFFFF"
+                android:textSize="26sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:id="@+id/pyramidLocation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="📍 Giza, Egypt"
+                android:textColor="#D5D5D5"
+                android:textSize="16sp"
+                android:layout_marginBottom="16dp" />
+
+            <TextView
+                android:id="@+id/pyramidDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The Great Pyramid of Giza, also known as the Pyramid of Khufu or Cheops, is the oldest and largest of the three pyramids on the Giza Plateau near Cairo, Egypt. Constructed around 2560 BCE during the Fourth Dynasty of the Old Kingdom, it served as a tomb for Pharaoh Khufu and stands as one of humanity’s most extraordinary achievements in architecture and engineering.
+\n\nOriginally towering at about 146.6 meters (481 feet), the pyramid was the tallest man-made structure in the world for over 3,800 years. Comprising more than 2.3 million limestone and granite blocks, each weighing between 2 and 80 tons, it demonstrates the exceptional craftsmanship and organizational skill of ancient Egyptian builders. Despite being over 4,500 years old, the pyramid’s precise alignment with the cardinal points and its near-perfect symmetry continue to astonish modern engineers and archaeologists.
+\n\nInside, the pyramid houses a complex network of passageways and chambers, including the King’s Chamber, Queen’s Chamber, and the Grand Gallery. The original polished Tura limestone casing reflected sunlight, causing the structure to gleam brilliantly in the desert—earning it the name 'Ikhet,' meaning 'Glorious Light.'
+\n\nThe Great Pyramid forms part of a vast necropolis that includes smaller pyramids for queens, mortuary temples, and the Great Sphinx. It symbolizes the Egyptians’ deep religious beliefs in the afterlife and their desire to honor their pharaoh as a divine ruler. Today, it stands as the last surviving Wonder of the Ancient World, continuing to inspire awe as a timeless testament to human ingenuity, ambition, and devotion."
+                android:textColor="#CFCFCF"
+                android:textSize="15sp"
+                android:lineSpacingExtra="4dp"
+                android:layout_marginBottom="20dp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gallery"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="12dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="20dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/py_a"
+                    android:scaleType="centerCrop"
+                    android:background="@drawable/rounded_corners"
+                    android:clipToOutline="true"
+                    android:layout_marginBottom="12dp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/py_b"
+                    android:scaleType="centerCrop"
+                    android:background="@drawable/rounded_corners"
+                    android:clipToOutline="true"
+                    android:layout_marginBottom="12dp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/py_c"
+                    android:scaleType="centerCrop"
+                    android:background="@drawable/rounded_corners"
+                    android:clipToOutline="true"
+                    android:layout_marginBottom="12dp" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="History"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Built during Egypt’s Fourth Dynasty around 2560 BC, the Great Pyramid was constructed over 20 years using approximately 2.3 million limestone blocks. It originally stood 146.6 meters tall and remained the tallest man-made structure in the world for over 3,800 years."
+                android:textColor="#CFCFCF"
+                android:textSize="15sp"
+                android:layout_marginBottom="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Architecture"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The pyramid’s precision is astonishing—its base sides differ by only a few centimeters. It is aligned almost perfectly with the cardinal points. The internal chambers, including the King’s Chamber and Grand Gallery, reveal remarkable engineering for its era."
+                android:textColor="#CFCFCF"
+                android:textSize="15sp"
+                android:layout_marginBottom="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Visiting Information"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Open: 8:00 AM – 5:00 PM\n• Entry Fee: EGP 200 (foreigners), EGP 40 (locals)\n• Best Time: October – April\n• Nearest Airport: Cairo International Airport (~30 km)"
+                android:textColor="#CFCFCF"
+                android:textSize="15sp"
+                android:layout_marginBottom="80dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btn_360_view_pyramid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_margin="16dp"
+        app:backgroundTint="#E8D17E"
+        android:src="@drawable/location"
+
+        android:contentDescription="360 View" />
+
+</FrameLayout>

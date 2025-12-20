@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:background="#0C2622"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:padding="6dp"
+    android:elevation="8dp">
+
+    <ImageButton
+        android:id="@+id/nav_home"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="20dp"
+        android:background="@null"
+        android:src="@drawable/ic_temple"
+        android:scaleType="fitCenter"
+        android:contentDescription="Home" />
+
+    <ImageButton
+        android:id="@+id/nav_globe"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="20dp"
+        android:background="@null"
+        android:src="@drawable/is_globe"
+        android:scaleType="fitCenter"
+        android:contentDescription="Topos" />
+
+    <ImageButton
+        android:id="@+id/nav_profile"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="20dp"
+        android:background="@null"
+        android:src="@drawable/is_helmet"
+        android:scaleType="fitCenter"
+        android:contentDescription="Profile" />
+</LinearLayout>
