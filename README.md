@@ -6,7 +6,9 @@ Antiquora is an Android application built for history enthusiasts, students, and
 🚀 Features
 
 📚 Explore Historical Content – Learn about ancient civilizations, major events, and important historical facts.
+
 🔍 Easy Navigation – Simple and intuitive interface for seamless browsing.
+
 🎨 Modern Android UI – Clean layouts with visually appealing design.
 
 ⚡ Fast & Lightweight – Optimized for smooth performance on Android devices.
