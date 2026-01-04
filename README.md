@@ -1,5 +1,3 @@
-#Antiquora
-
 📜 Antiquora
 Explore History Anywhere, Anytime
 
@@ -8,25 +6,18 @@ Antiquora is an Android application designed for history enthusiasts, students, 
 🚀 Features
 
 📚 Explore Historical Content – Learn about ancient civilizations, important events, and historical facts.
-
 🔍 Easy Navigation – Simple and user-friendly interface for seamless browsing.
-
 🎨 Modern Android UI – Clean layouts and visually appealing design.
-
 ⚡ Fast & Lightweight – Optimized for performance on Android devices.
-
 📱 Responsive Design – Works smoothly across different screen sizes.
+🔐 User authentication
 
 🛠️ Tech Stack
 
 Language: Kotlin
-
 Platform: Android
-
 UI Components: XML / Android Views
-
-Architecture: MVVM (optional if you plan to add later)
-
+Architecture: MVVM
 Version Control: Git & GitHub
 
 📂 Project Structure
@@ -43,26 +34,14 @@ A short demo video is included in the repository to showcase the app’s UI and 
 
 📈 Future Enhancements
 
-🔐 User authentication
-
 🌐 Online data integration (API-based history content)
-
 ⭐ Bookmark favorite topics
-
 🌙 Dark mode support
-
 🔔 Daily historical notifications
-
 🤝 Contribution
-
-Contributions are welcome!
-If you have ideas to improve Antiquora, feel free to fork the repository and submit a pull request.
 
 👨‍💻 Developer
 
 Aditya Raj Singh
 Android Developer | Kotlin Enthusiast
 
-📄 License
-
-This project is open-source and available for learning and educational purposes.
