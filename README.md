@@ -1,4 +1,6 @@
-#📜 Antiquora
+#Antiquora
+
+📜 Antiquora
 Explore History Anywhere, Anytime
 
 Antiquora is an Android application designed for history enthusiasts, students, and curious minds who want to explore historical facts, events, and knowledge in a simple and engaging way. The app focuses on delivering historical content with a clean UI and smooth user experience.
